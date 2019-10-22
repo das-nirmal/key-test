@@ -10,7 +10,7 @@ node key-gen -o 'keys/my-private-key.pem'
 # Key Store (index.js)
 
 ```
-const pemFiles = ['keys/key1.pem', 'keys/key2.pem'];
+const pemFiles = ['keys/my-private-key.pem'];
 
 const KeyStore = require('./key-store);
 
