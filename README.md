@@ -7,7 +7,7 @@ Example
 ```
 node key-gen -o 'keys/my-private-key.pem'
 ```
-# Key Store (index.js)
+# Key Store (key-store.js)
 
 ```
 const pemFiles = ['keys/my-private-key.pem'];
